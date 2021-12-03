@@ -1,0 +1,160 @@
+2021-12-02 11:09:46.989  INFO 91684 --- [main] c.cg.ofda.SprintFoodDeliveryApplication  : Starting SprintFoodDeliveryApplication using Java 15.0.1 on MoniLenovo with PID 91684 (F:\SPRINT-FoodDelivery\target\classes started by Monika S A in F:\SPRINT-FoodDelivery)
+2021-12-02 11:09:46.998  INFO 91684 --- [main] c.cg.ofda.SprintFoodDeliveryApplication  : No active profile set, falling back to default profiles: default
+2021-12-02 11:09:48.171  INFO 91684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-02 11:09:48.304  INFO 91684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 118 ms. Found 6 JPA repository interfaces.
+2021-12-02 11:09:49.279  INFO 91684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9999 (http)
+2021-12-02 11:09:49.298  INFO 91684 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-12-02 11:09:49.299  INFO 91684 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-02 11:09:49.580  INFO 91684 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-12-02 11:09:49.581  INFO 91684 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2488 ms
+2021-12-02 11:09:49.919  INFO 91684 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-02 11:09:50.020  INFO 91684 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-02 11:09:50.295  INFO 91684 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-02 11:09:50.481  INFO 91684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-02 11:09:50.742  INFO 91684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-02 11:09:50.792  INFO 91684 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-02 11:09:52.349  INFO 91684 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-02 11:09:52.364  INFO 91684 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 11:09:53.410  WARN 91684 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-02 11:09:55.490  INFO 91684 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9999 (http) with context path ''
+2021-12-02 11:09:55.505  INFO 91684 --- [main] c.cg.ofda.SprintFoodDeliveryApplication  : Started SprintFoodDeliveryApplication in 9.398 seconds (JVM running for 12.19)
+2021-12-02 14:35:02.180  INFO 91684 --- [RMI TCP Connection(214)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-02 14:35:06.160  INFO 91684 --- [RMI TCP Connection(214)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 14:35:06.628  INFO 91684 --- [RMI TCP Connection(214)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-02 14:35:06.973  INFO 91684 --- [RMI TCP Connection(214)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-02 14:35:55.003  INFO 104944 --- [main] c.c.o.SprintFoodDeliveryApplicationTests : Starting SprintFoodDeliveryApplicationTests using Java 15.0.1 on MoniLenovo with PID 104944 (started by Monika S A in F:\SPRINT-FoodDelivery)
+2021-12-02 14:35:55.007  INFO 104944 --- [main] c.c.o.SprintFoodDeliveryApplicationTests : No active profile set, falling back to default profiles: default
+2021-12-02 14:35:58.591  INFO 104944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-02 14:35:58.906  INFO 104944 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 282 ms. Found 6 JPA repository interfaces.
+2021-12-02 14:36:02.118  INFO 104944 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-02 14:36:02.558  INFO 104944 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-02 14:36:03.254  INFO 104944 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-02 14:36:03.753  INFO 104944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-02 14:36:05.261  INFO 104944 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-02 14:36:05.361  INFO 104944 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-02 14:36:10.629  INFO 104944 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-02 14:36:10.656  INFO 104944 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 14:36:18.041  WARN 104944 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-02 14:36:20.726  INFO 104944 --- [main] c.c.o.SprintFoodDeliveryApplicationTests : Started SprintFoodDeliveryApplicationTests in 27.056 seconds (JVM running for 31.916)
+2021-12-02 14:36:22.088  INFO 104944 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 14:36:22.100  INFO 104944 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-02 14:36:22.183  INFO 104944 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-02 15:36:18.116  INFO 104720 --- [main] c.c.o.service.ICustomerServiceImplTest   : Starting ICustomerServiceImplTest using Java 15.0.1 on MoniLenovo with PID 104720 (started by Monika S A in F:\SPRINT-FoodDelivery)
+2021-12-02 15:36:18.120  INFO 104720 --- [main] c.c.o.service.ICustomerServiceImplTest   : No active profile set, falling back to default profiles: default
+2021-12-02 15:36:20.089  INFO 104720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-02 15:36:20.382  INFO 104720 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 269 ms. Found 6 JPA repository interfaces.
+2021-12-02 15:36:22.719  INFO 104720 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-02 15:36:22.875  INFO 104720 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-02 15:36:23.258  INFO 104720 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-02 15:36:23.955  INFO 104720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-02 15:36:24.430  INFO 104720 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-02 15:36:24.495  INFO 104720 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-02 15:36:26.789  INFO 104720 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-02 15:36:26.808  INFO 104720 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 15:36:31.117  WARN 104720 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-02 15:36:33.461  INFO 104720 --- [main] c.c.o.service.ICustomerServiceImplTest   : Started ICustomerServiceImplTest in 16.203 seconds (JVM running for 19.69)
+2021-12-02 15:36:34.745  INFO 104720 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 15:36:34.758  INFO 104720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-02 15:36:34.807  INFO 104720 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-02 16:16:52.659  INFO 108244 --- [main] c.c.o.service.ICustomerServiceImplTest   : Starting ICustomerServiceImplTest using Java 15.0.1 on MoniLenovo with PID 108244 (started by Monika S A in F:\SPRINT-FoodDelivery)
+2021-12-02 16:16:52.660  INFO 108244 --- [main] c.c.o.service.ICustomerServiceImplTest   : No active profile set, falling back to default profiles: default
+2021-12-02 16:16:54.673  INFO 108244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-02 16:16:54.887  INFO 108244 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 191 ms. Found 6 JPA repository interfaces.
+2021-12-02 16:16:56.743  INFO 108244 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-02 16:16:56.982  INFO 108244 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-02 16:16:57.828  INFO 108244 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-02 16:16:58.208  INFO 108244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-02 16:16:58.923  INFO 108244 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-02 16:16:59.045  INFO 108244 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-02 16:17:02.567  INFO 108244 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-02 16:17:02.589  INFO 108244 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 16:17:06.893  WARN 108244 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-02 16:17:08.900  INFO 108244 --- [main] c.c.o.service.ICustomerServiceImplTest   : Started ICustomerServiceImplTest in 17.036 seconds (JVM running for 22.073)
+2021-12-02 16:17:10.921  INFO 108244 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 16:17:10.931  INFO 108244 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-02 16:17:10.975  INFO 108244 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-02 16:57:18.116  INFO 106012 --- [main] c.c.o.service.ICustomerServiceImplTest   : Starting ICustomerServiceImplTest using Java 15.0.1 on MoniLenovo with PID 106012 (started by Monika S A in F:\SPRINT-FoodDelivery)
+2021-12-02 16:57:18.119  INFO 106012 --- [main] c.c.o.service.ICustomerServiceImplTest   : No active profile set, falling back to default profiles: default
+2021-12-02 16:57:20.690  INFO 106012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-02 16:57:20.950  INFO 106012 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 236 ms. Found 6 JPA repository interfaces.
+2021-12-02 16:57:22.493  INFO 106012 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-02 16:57:22.609  INFO 106012 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-02 16:57:22.937  INFO 106012 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-02 16:57:23.254  INFO 106012 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-02 16:57:23.687  INFO 106012 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-02 16:57:23.746  INFO 106012 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-02 16:57:25.886  INFO 106012 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-02 16:57:25.909  INFO 106012 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 16:57:28.326  WARN 106012 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-02 16:57:29.907  INFO 106012 --- [main] c.c.o.service.ICustomerServiceImplTest   : Started ICustomerServiceImplTest in 13.067 seconds (JVM running for 16.82)
+2021-12-02 16:57:31.006  INFO 106012 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 16:57:31.018  INFO 106012 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-02 16:57:31.086  INFO 106012 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-02 17:05:50.793  INFO 59396 --- [main] c.c.o.service.IFoodRepositoryImplTest    : Starting IFoodRepositoryImplTest using Java 15.0.1 on MoniLenovo with PID 59396 (started by Monika S A in F:\SPRINT-FoodDelivery)
+2021-12-02 17:05:50.897  INFO 59396 --- [main] c.c.o.service.IFoodRepositoryImplTest    : No active profile set, falling back to default profiles: default
+2021-12-02 17:05:52.785  INFO 59396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-02 17:05:53.127  INFO 59396 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 324 ms. Found 6 JPA repository interfaces.
+2021-12-02 17:05:55.870  INFO 59396 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-02 17:05:55.994  INFO 59396 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-02 17:05:56.362  INFO 59396 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-02 17:05:56.678  INFO 59396 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-02 17:05:57.113  INFO 59396 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-02 17:05:57.169  INFO 59396 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-02 17:05:59.749  INFO 59396 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-02 17:05:59.770  INFO 59396 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 17:06:02.899  WARN 59396 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-02 17:06:04.901  INFO 59396 --- [main] c.c.o.service.IFoodRepositoryImplTest    : Started IFoodRepositoryImplTest in 14.983 seconds (JVM running for 18.823)
+2021-12-02 17:06:06.470  INFO 59396 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 17:06:06.482  INFO 59396 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-02 17:06:06.520  INFO 59396 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-02 17:51:11.085  INFO 59416 --- [main] com.cg.ofda.service.LoginTest            : Starting LoginTest using Java 15.0.1 on MoniLenovo with PID 59416 (started by Monika S A in F:\SPRINT-FoodDelivery)
+2021-12-02 17:51:11.089  INFO 59416 --- [main] com.cg.ofda.service.LoginTest            : No active profile set, falling back to default profiles: default
+2021-12-02 17:51:12.954  INFO 59416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-02 17:51:13.174  INFO 59416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 199 ms. Found 6 JPA repository interfaces.
+2021-12-02 17:51:14.827  INFO 59416 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-02 17:51:15.022  INFO 59416 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-02 17:51:15.665  INFO 59416 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-02 17:51:16.181  INFO 59416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-02 17:51:16.717  INFO 59416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-02 17:51:16.816  INFO 59416 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-02 17:51:20.017  INFO 59416 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-02 17:51:20.033  INFO 59416 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 17:51:23.141  WARN 59416 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-02 17:51:26.064  INFO 59416 --- [main] com.cg.ofda.service.LoginTest            : Started LoginTest in 15.686 seconds (JVM running for 18.83)
+2021-12-02 17:51:27.394  INFO 59416 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 17:51:27.400  INFO 59416 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-02 17:51:27.444  INFO 59416 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-02 17:58:38.539  INFO 96416 --- [main] c.cg.ofda.service.IFoodOrderServiceTest  : Starting IFoodOrderServiceTest using Java 15.0.1 on MoniLenovo with PID 96416 (started by Monika S A in F:\SPRINT-FoodDelivery)
+2021-12-02 17:58:38.542  INFO 96416 --- [main] c.cg.ofda.service.IFoodOrderServiceTest  : No active profile set, falling back to default profiles: default
+2021-12-02 17:58:40.492  INFO 96416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-02 17:58:40.716  INFO 96416 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 195 ms. Found 6 JPA repository interfaces.
+2021-12-02 17:58:42.403  INFO 96416 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-02 17:58:42.607  INFO 96416 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-02 17:58:43.120  INFO 96416 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-02 17:58:43.547  INFO 96416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-02 17:58:44.379  INFO 96416 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-02 17:58:44.439  INFO 96416 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-02 17:58:46.603  INFO 96416 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-02 17:58:46.623  INFO 96416 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 17:58:48.946  WARN 96416 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-02 17:58:50.524  INFO 96416 --- [main] c.cg.ofda.service.IFoodOrderServiceTest  : Started IFoodOrderServiceTest in 12.912 seconds (JVM running for 15.943)
+2021-12-02 17:58:51.956  INFO 96416 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 17:58:51.963  INFO 96416 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-02 17:58:52.038  INFO 96416 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-12-02 18:07:02.148  INFO 124864 --- [main] c.cg.ofda.service.ICartServiceImplTest   : Starting ICartServiceImplTest using Java 15.0.1 on MoniLenovo with PID 124864 (started by Monika S A in F:\SPRINT-FoodDelivery)
+2021-12-02 18:07:02.157  INFO 124864 --- [main] c.cg.ofda.service.ICartServiceImplTest   : No active profile set, falling back to default profiles: default
+2021-12-02 18:07:03.986  INFO 124864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-02 18:07:04.231  INFO 124864 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 226 ms. Found 6 JPA repository interfaces.
+2021-12-02 18:07:05.872  INFO 124864 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-12-02 18:07:06.020  INFO 124864 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-02 18:07:06.462  INFO 124864 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-02 18:07:06.805  INFO 124864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-12-02 18:07:07.175  INFO 124864 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-12-02 18:07:07.228  INFO 124864 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2021-12-02 18:07:09.697  INFO 124864 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-02 18:07:09.720  INFO 124864 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 18:07:12.586  WARN 124864 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-12-02 18:07:14.340  INFO 124864 --- [main] c.cg.ofda.service.ICartServiceImplTest   : Started ICartServiceImplTest in 13.015 seconds (JVM running for 16.83)
+2021-12-02 18:07:15.872  INFO 124864 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-12-02 18:07:15.879  INFO 124864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-12-02 18:07:15.932  INFO 124864 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
